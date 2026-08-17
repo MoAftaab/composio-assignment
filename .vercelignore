@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+node_modules
+**/node_modules
+.next
+**/.next
+data/runs
+work
+outputs
+coverage
+test-results
+playwright-report
+*.log

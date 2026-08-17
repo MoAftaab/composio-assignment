@@ -1,0 +1,14 @@
+node_modules/
+.next/
+dist/
+coverage/
+.env
+.env.local
+.vercel/
+data/runs/*
+!data/runs/.gitkeep
+playwright-report/
+test-results/
+*.log
+work/
+outputs/

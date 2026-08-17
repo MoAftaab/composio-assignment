@@ -1,0 +1,18 @@
+{
+  "name": "@atlas/research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@atlas/shared": "workspace:*",
+    "@composio/core": "latest",
+    "dotenv": "^17.4.2",
+    "openai": "latest",
+    "p-limit": "latest",
+    "playwright": "latest",
+    "zod": "latest"
+  }
+}

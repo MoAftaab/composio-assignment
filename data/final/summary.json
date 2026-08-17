@@ -1,0 +1,121 @@
+{
+  "total": 100,
+  "evidenceCollected": 85,
+  "researched": 85,
+  "needsReview": 85,
+  "failed": 15,
+  "unresearched": 0,
+  "automaticallyChecked": 100,
+  "byVerdict": {
+    "ready_now": 55,
+    "conditional": 18,
+    "outreach_required": 3,
+    "blocked": 9,
+    "unknown": 15
+  },
+  "byAuth": {
+    "oauth2": 73,
+    "bearer_token": 53,
+    "api_key": 46,
+    "personal_token": 18,
+    "basic": 21,
+    "custom": 17,
+    "unknown": 21,
+    "service_account": 4,
+    "none": 4
+  },
+  "byAccess": {
+    "self_serve_free": 46,
+    "self_serve_paid": 18,
+    "self_serve_trial": 15,
+    "admin_approval": 2,
+    "contact_sales": 4,
+    "unknown": 15
+  },
+  "byCategory": {
+    "CRM and Sales": {
+      "total": 10,
+      "ready": 8,
+      "gated": 1
+    },
+    "Support and Helpdesk": {
+      "total": 10,
+      "ready": 3,
+      "gated": 2
+    },
+    "Communications and Messaging": {
+      "total": 10,
+      "ready": 8,
+      "gated": 1
+    },
+    "Marketing, Ads, Email and Social": {
+      "total": 10,
+      "ready": 5,
+      "gated": 0
+    },
+    "Ecommerce": {
+      "total": 10,
+      "ready": 5,
+      "gated": 4
+    },
+    "Data, SEO and Scraping": {
+      "total": 10,
+      "ready": 7,
+      "gated": 1
+    },
+    "Developer, Infra and Data platforms": {
+      "total": 10,
+      "ready": 9,
+      "gated": 1
+    },
+    "Productivity and Project Management": {
+      "total": 10,
+      "ready": 7,
+      "gated": 1
+    },
+    "Finance and Fintech": {
+      "total": 10,
+      "ready": 3,
+      "gated": 1
+    },
+    "AI, Research and Media-native": {
+      "total": 10,
+      "ready": 0,
+      "gated": 0
+    }
+  },
+  "blockers": [
+    {
+      "blocker": "none",
+      "count": 55
+    },
+    {
+      "blocker": "paid_access",
+      "count": 15
+    },
+    {
+      "blocker": "unknown",
+      "count": 15
+    },
+    {
+      "blocker": "no_public_api",
+      "count": 9
+    },
+    {
+      "blocker": "partner_gate",
+      "count": 3
+    },
+    {
+      "blocker": "admin_approval",
+      "count": 2
+    },
+    {
+      "blocker": "read_only",
+      "count": 1
+    }
+  ],
+  "officialMcp": 65,
+  "communityMcp": 15,
+  "composioChecked": 0,
+  "composioMatched": 0
+}

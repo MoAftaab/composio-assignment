@@ -1,0 +1,22 @@
+{
+  "name": "integration-readiness-atlas",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "pnpm --filter @atlas/case-study dev",
+    "build": "pnpm --filter @atlas/case-study build",
+    "start": "pnpm --filter @atlas/case-study start",
+    "research": "tsx packages/research/src/cli.ts research",
+    "verify": "tsx packages/research/src/cli.ts verify",
+    "analyze": "tsx packages/research/src/cli.ts analyze",
+    "audit:prepare": "tsx packages/research/src/cli.ts audit:prepare",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vitest": "^2.1.9"
+  }
+}
