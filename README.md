@@ -2,6 +2,9 @@
 
 A reproducible research agent and one-page case study for Composio's AI Product Ops take-home. The pipeline researches the assigned 100 apps, keeps evidence attached to each claim, verifies sources, prepares a stratified human audit, and renders the findings as a reviewer-friendly HTML page.
 
+- Live case study: [my-a-rho.vercel.app](https://my-a-rho.vercel.app)
+- Source repository: [MoAftaab/composio-assignment](https://github.com/MoAftaab/composio-assignment)
+
 The repository is safe to build without credentials. Until a real evidence run exists, the page clearly labels every app **Unresearched** instead of presenting generated or guessed claims as facts.
 
 ## What is implemented
