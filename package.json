@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "latest",
+    "next": "16.3.1",
     "tsx": "latest",
     "typescript": "latest",
     "vitest": "^2.1.9"
